@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>東京中央自動車学校　卒業検定コース１</name>
+  <description><![CDATA[東京中央自動車学校　卒業検定コース１]]></description>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>スタート</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>139.818680,35.664200,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>コース１</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <ExtendedData>
+      <Data name="_SnapToRoads">
+        <value>true</value>
+      </Data>
+    </ExtendedData>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        139.818680,35.664200,0.000000
+        139.805634,35.662880,0.000000
+        139.805634,35.662880,0.000000
+        139.805405,35.662819,0.000000
+        139.803589,35.661861,0.000000
+        139.803589,35.661861,0.000000
+        139.803207,35.664181,0.000000
+        139.803085,35.664310,0.000000
+        139.803085,35.664310,0.000000
+        139.802658,35.664310,0.000000
+        139.802368,35.664261,0.000000
+        139.799225,35.662170,0.000000
+        139.799225,35.662170,0.000000
+        139.801041,35.659569,0.000000
+        139.802185,35.658352,0.000000
+        139.802963,35.657639,0.000000
+        139.803970,35.656620,0.000000
+        139.803970,35.656620,0.000000
+        139.804382,35.656940,0.000000
+        139.806747,35.658501,0.000000
+        139.806747,35.658501,0.000000
+        139.808502,35.656761,0.000000
+        139.808502,35.656761,0.000000
+        139.809570,35.657452,0.000000
+        139.809570,35.657452,0.000000
+        139.810730,35.656361,0.000000
+        139.811050,35.655869,0.000000
+        139.811234,35.655479,0.000000
+        139.811996,35.650311,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ゴール</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>139.812012,35.650356,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
